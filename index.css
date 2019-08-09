@@ -1,0 +1,245 @@
+body{
+    height: 100%;
+}
+
+
+.container {
+    display: grid;
+    font-family:"Lato", sans-serif; 
+    text-align: center;
+  
+}
+
+#section1 h1{
+    text-align: center;
+    font-weight: 100;
+    font-family:"Lato", sans-serif;   
+   
+}
+
+#intro {
+    padding-left: 1em;
+    padding-right: 1em;
+    font-size: 275%; 
+    font-weight: bold;
+    font-family:"Lato", sans-serif;   
+}
+
+hr {
+    width: 55%; 
+    border: 3px solid #005282;
+}
+
+#date{
+    display:block;
+  margin-left:auto;
+  margin-right:auto;
+  padding: 2em;
+  
+}
+
+
+
+img{
+    display: block;
+    
+}
+
+#section2, #section3{
+    background-color: #71a1be;
+    text-align: center;
+    color: white;
+    font-family:"Lato", sans-serif;   
+}
+
+#img1{
+    display:block;
+  margin-left:auto;
+  margin-right:auto;
+  padding: 2.5em;
+}
+
+#section4 {
+font-family:"Lato", sans-serif; 
+background-color: #05263a;
+text-align: center;
+color: white;
+}
+
+#description1{
+    font-size: 1.3em;
+    font-style: italic;
+}
+
+#section5 {
+background-color: #EBEBEB;
+}
+
+#section5 h2{
+    text-align: center;
+    padding-top: 1em;
+}
+
+
+
+#section6 {
+    background-color: #f58c99;
+    color: white;
+    text-align: center;
+  
+}
+
+#section7 {
+    background-color: #05263a;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    font-style: italic;
+}
+
+#triangle{
+    width: 0;
+    height: 0;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-top: 50px solid #05263a;
+    margin: 0 auto;
+}
+
+.register{
+ 
+    padding: 2em;
+   
+}
+
+.btn {
+    color: #fff;
+    background: #005282;
+    padding: 2em;
+    border-radius: 15px;
+    text-decoration: none;
+    
+  }
+
+.grid1{
+    padding-top: 1em;
+    display: grid;
+   
+}
+
+.grid2{
+    display: grid;
+}
+
+
+@media screen and (min-width: 760px)  {
+
+    .grid1{
+        padding-top: 1em;
+        display: grid;
+        grid-template-columns: 3fr 7fr;
+        grid-column-gap: 1em;
+        grid-row-gap: 1em;
+    }
+
+    #intro {
+        padding-left: 4em;
+        padding-right: 4em;
+        font-size: 275%; 
+        font-weight: bold;
+        font-family:"Lato", sans-serif;   
+    }
+    
+
+    .grid2{
+        display: grid;
+        grid-template-columns: 4fr 6fr;
+        grid-row-gap: 1em;
+    }
+
+    .container {
+        display: grid;
+        padding: 1em;
+        padding-left: 3em;
+        padding-right: 3em;
+        font-family:"Lato", sans-serif; 
+        text-align: center;
+      
+    }
+
+    #warningicon {
+        height: 40px;
+      width: 40px;
+      display:inline-block;
+      vertical-align:middle;
+      animation: blink 1s;
+      animation-iteration-count: infinite;
+     }
+
+     @keyframes blink {
+        0% {
+            opacity: 1;
+        }
+        50% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+    
+}
+
+@media screen and (max-width: 759px)  {
+    #warningicon {
+        height: 40px;
+      width: 40px;
+      display:none;
+        
+     }
+}
+
+ 
+span {
+      color:#005282;
+  }
+
+
+
+#warning {
+    display:inline-block;
+  vertical-align:middle;
+  
+}
+
+ul li {
+    background-image: url('RGS_Hotlist_0617_CheckmarkBox.png');
+    background-repeat: no-repeat;
+    line-height: 30px;
+    padding-left: 4em;
+}
+
+
+li {
+    float: left;
+    padding: 1.2em;
+    font-size: 120%;
+    text-align: left;
+    
+}
+ul {
+    margin: 50px;
+    list-style-type: none;
+}
+
+#countdown{
+        text-align: center;
+        font-size: 40px;
+        margin-top: 3em;
+}
+
+#countdown{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 3em;
+}
